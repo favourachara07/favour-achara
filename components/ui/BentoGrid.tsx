@@ -53,7 +53,7 @@ export const BentoGridItem = ({
   const [copied, setCopied] = useState(false)
 
   const handleCopy=()=>{
-    navigator.clipboard.writeText('acharafavour01@gmail.com')
+    navigator.clipboard.writeText('acharafavour01@gmail.com');
     setCopied(true)
   }
   return (
@@ -69,7 +69,7 @@ export const BentoGridItem = ({
       }}
     >
       {/* cn is for dynamic classes */}
-      <div className={`${id === 6 && "flex justify-center h-full"}`}>
+      <div className={`${id === 6 && "flex justify-center "} h-full`}>
         <div className="w-full h-full absolute">
           {img && (
             <Image
@@ -98,7 +98,7 @@ export const BentoGridItem = ({
         </div>
         {id === 6 && (
           <BackgroundGradientAnimation>
-            <div className="absolute z-50 inset-0 flex items-center justify-center text-white font-bold px-4 pointer-events-none text-3xl text-center md:text-4xl lg:text-7xl" />
+             <div className="absolute z-50 inset-0 flex items-center justify-center text-white font-bold px-4 pointer-events-none text-3xl text-center md:text-4xl lg:text-7xl"></div>
           </BackgroundGradientAnimation>
         )}
         <div
