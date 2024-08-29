@@ -74,8 +74,8 @@ export const BentoGridItem = ({
           {img && (
             <Image
               src={img}
-              width={500}
-              height={500}
+              width={792}
+              height={541}
               alt={img}
               className={cn(imgClassName, "object-cover, object-center")}
             />
@@ -133,7 +133,7 @@ export const BentoGridItem = ({
                 ))}
                 <span className="py-4 px-3 rounded-lg text-center bg-[#10132e]"></span>
               </div>
-              <div className="flex flex-col gap-3 lg:gap-8">
+              <div className="flex flex-col gap-3 lg:gap-8 mt-[-2.8rem]">
                 <span className="py-4 px-3 rounded-lg text-center bg-[#10132e]"></span>
                 {["Java", "Python", "TS"].map((item) => (
                   <span
