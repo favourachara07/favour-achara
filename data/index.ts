@@ -82,6 +82,7 @@ export const projects = [
     id: 2,
     title: "Todo-List",
     des: "Add the task you want to complete for teh day. You can edit and delete the task if needed. You can also select a theme for the todo app",
+    img: "/p1.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
     link: "/ui.yoom.com",
   },
